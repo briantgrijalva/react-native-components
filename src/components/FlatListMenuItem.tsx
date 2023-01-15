@@ -11,6 +11,7 @@ interface Props {
 export const FlatListMenuItem = ( { menuItem }: Props ) => {
 
     const navigation = useNavigation<any>();
+    // const { colors } = useTheme();
 
     return (
         <TouchableOpacity
